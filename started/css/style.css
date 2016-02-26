@@ -1,13 +1,13 @@
 @import url("bootstrap.css");
 *{
     box-sizing: border-box;
-    white-space: nowrap;
+
 }
 
 body {
     margin: 0;
     background: #fff;
-
+    white-space: nowrap;
 }
 
 ul{
@@ -15,6 +15,10 @@ ul{
     white-space: nowrap;
 }
 
+p{
+    white-space: normal;
+
+}
 .phone-number{
     color: #22b6f7;
 
@@ -26,7 +30,7 @@ ul{
 }
 
 .phone-number-kiev::after{
-    content: "  ËÂ‚";
+    content: " –ö–∏–µ–≤";
     color: #000;
 }
 
@@ -37,7 +41,7 @@ ul{
 
 .phone-number-kyivstar::after{
 
-    content: "  ËÂ‚ÒÚ‡";
+    content: " –ö–∏–µ–≤—Å—Ç–∞—Ä";
     color: #000;
 
 }
