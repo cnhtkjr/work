@@ -1,7 +1,60 @@
 @import url("bootstrap.css");
+*{
+    box-sizing: border-box;
+    white-space: nowrap;
+}
 
 body {
     margin: 0;
     background: #fff;
 
+}
+
+ul{
+   list-style-type: none;
+    white-space: nowrap;
+}
+
+.phone-number{
+    color: #22b6f7;
+
+}
+
+.phone-number-kiev::before{
+    content: "(044) ";
+    color: #000;
+}
+
+.phone-number-kiev::after{
+    content: " Киев";
+    color: #000;
+}
+
+.phone-number-kyivstar::before{
+    content: "(098) ";
+    color: #000;
+}
+
+.phone-number-kyivstar::after{
+
+    content: " Киевстар";
+    color: #000;
+
+}
+
+header p{
+   /* text-align: center;*/
+  /*  text-transform: uppercase;*/
+}
+
+.row-blue{
+    background-color: #03a9f4;
+}
+
+.row-aque{
+    background-color: #e1f5fe;
+}
+
+.footer-main{
+    background-color: #444f5d;
 }
