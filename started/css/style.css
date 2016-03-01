@@ -12,6 +12,15 @@ body {
 
 ul ul{
     list-style: inherit;
+
+}
+
+ul li{
+    white-space: normal;
+}
+
+li a{
+    white-space: inherit;
 }
 
 p{
@@ -21,6 +30,7 @@ p{
 
 .vertical-center{
     vertical-align: middle;
+    display: inline-block;
 
 }
 .phone-number{
