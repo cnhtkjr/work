@@ -10,17 +10,29 @@ body {
     white-space: nowrap;
 }
 
-ul{
-   list-style-type: none;
-    white-space: nowrap;
+ul ul{
+    list-style: inherit;
 }
 
 p{
     white-space: normal;
 
 }
+
+.vertical-center{
+    vertical-align: middle;
+
+}
 .phone-number{
     color: #22b6f7;
+
+}
+
+.phone-number-kiev{
+
+}
+
+.phone-number-kyivstar{
 
 }
 
