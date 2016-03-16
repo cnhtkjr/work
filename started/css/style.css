@@ -85,6 +85,11 @@ header p{
     background-color: #444f5d;
 }
 
+footer ul{
+
+    display: inline-block;
+
+}
 /*html, body, section, .container, .container-fluid, .row, .col-xs-3, .col-xs-6, .col-xs-9{
 
     height: 100%;
