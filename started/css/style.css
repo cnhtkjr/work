@@ -84,3 +84,9 @@ header p{
 .footer-main{
     background-color: #444f5d;
 }
+
+/*html, body, section, .container, .container-fluid, .row, .col-xs-3, .col-xs-6, .col-xs-9{
+
+    height: 100%;
+
+}*/
