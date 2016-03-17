@@ -89,6 +89,29 @@ header p{
     vertical-align: top;
 
 }
+
+#main-section{
+    /*padding: 2rem;*/
+    color: #fff;
+
+}
+
+.content-header, .content-main, .content-footer, .main-header{
+    margin: 2rem 0;
+}
+
+.content-main{
+    margin-bottom: 6rem;
+
+}
+
+#main-section .btn-success{
+    width: 43%;
+    background-color: #a7d41e;
+}
+
+
+
 /*html, body, section, .container, .container-fluid, .row, .col-xs-3, .col-xs-6, .col-xs-9{
 
     height: 100%;
