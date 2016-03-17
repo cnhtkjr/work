@@ -7,7 +7,7 @@
 body {
     margin: 0;
     background: #fff;
-    white-space: nowrap;
+  /*  white-space: nowrap;*/
 }
 
 ul ul{
@@ -97,18 +97,40 @@ header p{
 }
 
 .content-header, .content-main, .content-footer, .main-header{
-    margin: 2rem 0;
+    /*margin: 2rem 0;*/
 }
 
 .content-main{
-    margin-bottom: 6rem;
+    /*margin-bottom: 6rem;*/
 
 }
 
-#main-section .btn-success{
+.marginned{
+    margin: 2rem 0;
+
+}
+
+.marginned-bttm{
+
+    margin-bottom: 6rem;
+}
+
+.btn-success{
     width: 43%;
     background-color: #a7d41e;
+    border: 0;
+    -webkit-box-shadow:  1px 1px 2px #0390d0;
+    -moz-box-shadow:  1px 1px 2px #0390d0;
+    box-shadow:  1px 1px 2px #0390d0;
 }
+
+header .btn-success{
+    width: 100%;
+    -webkit-box-shadow: 1px 1px 2px #d9d9d9;
+    -moz-box-shadow: 1px 1px 2px #d9d9d9;
+    box-shadow: 1px 1px 2px #d9d9d9;
+}
+
 
 
 
