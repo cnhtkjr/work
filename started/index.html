@@ -19,168 +19,165 @@
 </head>
 <body>
 <!-- BODY -->
-<div class="container-fluid">
+<div class="container-fluid body">
     <!-- HEADER -->
-    <header>
-        <div class="row">
-            <div class="container">
-                <div class="row">
-                    <!-- LOGO -->
-                    <div class="col-xs-3" id="logo">
-                        <a href="#"><img src="img/logo.png" alt="SiteUp"/></a>
-                    </div>
-                    <!-- /LOGO -->
+    <header class="row">
+        <section class="container">
+            <div class="row">
+                <!-- LOGO -->
+                <div class="col-xs-6 col-sm-3" id="logo">
+                    <a href="#"><img class="img-responsive" src="img/logo.png" alt="SiteUp"/></a>
+                </div>
+                <!-- /LOGO -->
 
-                    <!-- NAV -->
-                    <div class="col-xs-6">
+                <!-- CONTACTS-->
+                <div class="col-xs-6 col-sm-3 col-sm-push-6 text-right">
+                    <ul class="phone-list list-unstyled">
+                        <li class="phone-list__item phone-list__item_kiev">383 24 49</li>
+                        <li class="phone-list__item phone-list__item_kyivstar">454 00 15</li>
+                        <li class="phone-list__item">
+                            <button class="btn btn-success text-uppercase" type="button">
+                                Получить предложение
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /CONTACTS-->
+
+                <!-- NAV -->
+                <div class="col-xs-12 col-sm-6 col-sm-pull-3">
+                    <!-- SUPPORT TOP NAV-->
+                        <section class="support-menu row">
+                            <div class="support-menu__item col-xs-6 text-center">
+                                <a href="#"><span>Техподдержка</span></a>
+                            </div>
+                            <div class="support-menu__item lang-switcher col-xs-6 text-left">
+                                <ul class="list-inline">
+                                    <li class="lang-switcher__item"><a href="#">RU</a></li>
+                                    <li class="lang-switcher__item"><a href="#">EN</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- /SUPPORT TOP NAV-->
+
+                        <!-- MAIN NAV-->
+                        <section class="row">
+                            <nav class="col-xs-12">
+                                <ul class="nav nav-pills nav-justified" role="navigation">
+                                    <li class="nav-pills__item"><a href="#">Главная</a></li>
+                                    <li class="nav-pills__item"><a href="#">Портфолио</a></li>
+                                    <li class="nav-pills__item"><a href="#">Блог</a></li>
+                                    <li class="nav-pills__item"><a href="#">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                        <!-- /MAIN NAV-->
+                   </div>
+                <!-- /NAV -->
+
+
+            </div>
+
+            <!-- MENU SITE TOP-->
+            <div class="row menu-site-top">
+
+                <section id="menu-web-developing">
+                    <div class="col-xs-3">
                         <div class="container-fluid">
-                            <!-- SUPPORT TOP NAV-->
-                            <div class="row-fluid">
-                                <div class="col-xs-6">
-                                    <span>Техподдержка</span>
+                            <div class="row">
+                                <div class="menu-image-wrapper col-xs-6">
+                                    <img src="img/site-menu/Development-icon.png"
+                                         alt="Создание сайтов"
+                                         class="img-responsive vertical-center"/>
+
                                 </div>
-                                <div class="col-xs-6 lang">
-                                    <ul class="list-inline">
-                                        <li class="lang-ru">RU</li>
-                                        <li class="lang-en">EN</li>
+                                <div class="menu-context-wrapper col-xs-6">
+                                    <ul class="list-unstyled">
+                                        <li><h5 class="text-uppercase">создание сайтов</h5></li>
+                                        <li><a href="#">Сайт визитка</a></li>
+                                        <li><a href="#">Корпоративный сайт</a></li>
+                                        <li><a href="#">Интернет магазин</a></li>
+                                        <li><a href="#">Landing Page</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <!-- /SUPPORT TOP NAV-->
-
-                            <!-- MAIN NAV-->
-                            <nav>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <ul class="nav nav-pills" role="navigation">
-                                            <li><a href="#">Главная</a></li>
-                                            <li><a href="#">Портфолио</a></li>
-                                            <li><a href="#">Блог</a></li>
-                                            <li><a href="#">Контакты</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </nav>
-                            <!-- /MAIN NAV-->
                         </div>
                     </div>
-                    <!-- /NAV -->
+                </section>
 
-                    <!-- CONTACTS-->
+                <section id="menu-seo">
                     <div class="col-xs-3">
-                        <ul class="list-unstyled">
-                            <li class="phone phone-number phone-number-kiev">383 24 49</li>
-                            <li class="phone phone-number phone-number-kyivstar">454 00 15</li>
-                            <li>
-                                <button class="btn btn-success text-uppercase" type="button">
-                                    Получить предложение
-                                </button>
-                            </li>
-                        </ul>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="menu-image-wrapper col-xs-6">
+                                    <img src="img/site-menu/seo.png"
+                                         alt="Раскрутка сайтов"
+                                         class="img-responsive vertical-center"/>
+
+                                </div>
+                                <div class="menu-context-wrapper col-xs-6">
+                                    <ul class="list-unstyled">
+                                        <li><h5 class="text-uppercase">SEO-продвижение</h5></li>
+                                        <li><a href="#">Контекстная реклама</a></li>
+                                        <li><a href="#">Медийная реклама (баннерная)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- /CONTACTS-->
-                </div>
+                </section>
 
-                <!-- MENU SITE TOP-->
-                <div class="row menu-site-top">
+                <section id="menu-design">
+                    <div class="col-xs-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="menu-image-wrapper col-xs-6">
+                                    <img src="img/site-menu/website-design-xxl.png"
+                                         alt="Дизайн"
+                                         class="img-responsive vertical-center"/>
 
-                    <section id="menu-web-developing">
-                        <div class="col-xs-3">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="menu-image-wrapper col-xs-6">
-                                        <img src="img/site-menu/Development-icon.png"
-                                             alt="Создание сайтов"
-                                             class="img-responsive vertical-center"/>
-
-                                    </div>
-                                    <div class="menu-context-wrapper col-xs-6">
-                                        <ul class="list-unstyled">
-                                            <li><h5 class="text-uppercase">создание сайтов</h5></li>
-                                            <li><a href="#">Сайт визитка</a></li>
-                                            <li><a href="#">Корпоративный сайт</a></li>
-                                            <li><a href="#">Интернет магазин</a></li>
-                                            <li><a href="#">Landing Page</a></li>
-                                        </ul>
-                                    </div>
+                                </div>
+                                <div class="menu-context-wrapper col-xs-6">
+                                    <ul class="list-unstyled">
+                                        <li><h5 class="text-uppercase">дизайн</h5></li>
+                                        <li><a href="#">Дизайн сайтов</a></li>
+                                        <li><a href="#">Логотипы</a></li>
+                                        <li><a href="#">Баннеры</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
 
-                    <section id="menu-seo">
-                        <div class="col-xs-3">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="menu-image-wrapper col-xs-6">
-                                        <img src="img/site-menu/seo.png"
-                                             alt="Раскрутка сайтов"
-                                             class="img-responsive vertical-center"/>
+                <section id="menu-additional-services">
+                    <div class="col-xs-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="menu-image-wrapper col-xs-6">
+                                    <img src="img/site-menu/additional-services.png"
+                                         alt="Дополнительные услуги"
+                                         class="img-responsive vertical-center"/>
 
-                                    </div>
-                                    <div class="menu-context-wrapper col-xs-6">
-                                        <ul class="list-unstyled">
-                                            <li><h5 class="text-uppercase">SEO-продвижение</h5></li>
-                                            <li><a href="#">Контекстная реклама</a></li>
-                                            <li><a href="#">Медийная реклама (баннерная)</a></li>
-                                        </ul>
-                                    </div>
+                                </div>
+                                <div class="menu-context-wrapper col-xs-6">
+                                    <ul class="list-unstyled">
+                                        <li><h5 class="text-uppercase">доп.услуги</h5></li>
+                                        <li><a href="#">Написание уникальных текстов</a></li>
+                                        <li><a href="#">HTML верстка</a></li>
+                                        <li><a href="#">Мобильная версия</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </section>
-
-                    <section id="menu-design">
-                        <div class="col-xs-3">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="menu-image-wrapper col-xs-6">
-                                        <img src="img/site-menu/website-design-xxl.png"
-                                             alt="Дизайн"
-                                             class="img-responsive vertical-center"/>
-
-                                    </div>
-                                    <div class="menu-context-wrapper col-xs-6">
-                                        <ul class="list-unstyled">
-                                            <li><h5 class="text-uppercase">дизайн</h5></li>
-                                            <li><a href="#">Дизайн сайтов</a></li>
-                                            <li><a href="#">Логотипы</a></li>
-                                            <li><a href="#">Баннеры</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="menu-additional-services">
-                        <div class="col-xs-3">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="menu-image-wrapper col-xs-6">
-                                        <img src="img/site-menu/additional-services.png"
-                                             alt="Дополнительные услуги"
-                                             class="img-responsive vertical-center"/>
-
-                                    </div>
-                                    <div class="menu-context-wrapper col-xs-6">
-                                        <ul class="list-unstyled">
-                                            <li><h5 class="text-uppercase">доп.услуги</h5></li>
-                                            <li><a href="#">Написание уникальных текстов</a></li>
-                                            <li><a href="#">HTML верстка</a></li>
-                                            <li><a href="#">Мобильная версия</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    </div>
+                </section>
 
 
-                    <!-- /MENU SITE TOP-->
-                </div>
+                <!-- /MENU SITE TOP-->
             </div>
-        </div>
+        </section>
+
     </header>
     <!-- /HEADER -->
 

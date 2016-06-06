@@ -7,7 +7,7 @@
 body {
     margin: 0;
     background: #fff;
-    white-space: nowrap;
+   /* white-space: nowrap;*/
 }
 
 ul ul{
@@ -16,15 +16,15 @@ ul ul{
 }
 
 ul li{
-    white-space: normal;
+   /* white-space: normal;*/
 }
 
 li a{
-    white-space: inherit;
+   /* white-space: inherit;*/
 }
 
 p{
-    white-space: normal;
+    /*white-space: normal;*/
 
 }
 
@@ -33,38 +33,38 @@ p{
     display: inline-block;
 
 }
-.phone-number{
+.phone-list{
     color: #22b6f7;
 
 }
 
-.phone-number-kiev{
-
+.phone-list__item{
+    text-align: left;
 }
 
-.phone-number-kyivstar{
-
+.phone-list__item::before, .phone-list__item::after{
+    color: #000000;
 }
 
-.phone-number-kiev::before{
+.phone-list__item_kiev::before{
     content: "(044) ";
-    color: #000;
+
 }
 
-.phone-number-kiev::after{
+.phone-list__item_kiev::after{
     content: " Киев";
-    color: #000;
+
 }
 
-.phone-number-kyivstar::before{
+.phone-list__item_kyivstar::before{
     content: "(098) ";
-    color: #000;
+
 }
 
-.phone-number-kyivstar::after{
+.phone-list__item_kyivstar::after{
 
     content: " Киевстар";
-    color: #000;
+
 
 }
 
