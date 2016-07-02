@@ -4,6 +4,10 @@
 
 }
 
+.container-fluid{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 body {
     margin: 0;
     background: #fff;
@@ -117,3 +121,8 @@ header p{
     height: 100%;
 
 }*/
+
+#slider img{
+    padding-left: 0;
+    padding-right: 0;
+}
